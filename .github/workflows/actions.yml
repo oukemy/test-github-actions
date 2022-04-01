@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/97973973nginx:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.sha }}:latest
